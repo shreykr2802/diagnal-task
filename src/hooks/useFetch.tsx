@@ -15,7 +15,7 @@ export const useFetch = (section: number) => {
             })
             .catch(e => {
                 dispatch(isLoading(false));
-                dispatch(isError(e));
+                dispatch(isError("No more movies found"));
             })
     }, [dispatch, section])
 }

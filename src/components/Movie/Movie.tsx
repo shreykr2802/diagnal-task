@@ -16,7 +16,7 @@ const Movie = ({ ...movie }) => {
 
     return (
         <div className="Movie">
-            <img src={image} alt="movie" />
+            <img src={image} alt="movie" className="ImagesSize"/>
             <h2 className="MovieTitle">{movie.name}</h2>
         </div>
     );
