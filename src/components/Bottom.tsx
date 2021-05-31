@@ -14,7 +14,8 @@ const Bottom = () => {
         <>
             <div id='page-bottom-boundary' ref={bottomBoundaryRef}></div>
             {dataLoading && <h2>Loading ..... </h2>}
-            {error && <h2>You have reached the end of list!!</h2>}
+            {error &&
+                <div className="EndOfList"><h2 className="EndOfListText">You have reached the end of list!!</h2></div>}
 
         </>
     );

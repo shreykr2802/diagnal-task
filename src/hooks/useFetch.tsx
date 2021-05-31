@@ -6,7 +6,7 @@ export const useFetch = (section: number) => {
     const dispatch = useDispatch();
     useEffect(() => {
         dispatch(isLoading(true))
-        fetch(`API/CONTENTLISTINGPAGE-PAGE${section}.json`)
+        fetch(`./API/CONTENTLISTINGPAGE-PAGE${section}.json`)
             .then(data => data.json())
             .then(movies => {
                 let movieData = movies.page['content-items'].content;

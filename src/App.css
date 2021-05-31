@@ -56,6 +56,12 @@
     padding-top: 5rem;
 }
 
+@media(min-width: 400px) {
+    .Content {
+        grid-template-columns: auto auto;
+    }
+}
+
 .Movie {
     margin: 0.5rem;
 }
@@ -69,4 +75,12 @@
 .ImagesSize {
     max-width: 182px;
     max-height: 272px;
+}
+
+.EndOfList {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.EndOfListText {
+    color: rgba(0, 0, 0, 1);
 }
