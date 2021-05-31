@@ -1,0 +1,2 @@
+(this.webpackJsonpdiagnal=this.webpackJsonpdiagnal||[]).push([[5],{34:function(a,s,t){"use strict";t.r(s),s.default=t.p+"static/media/poster2.bf23bfae.jpg"}}]);
+//# sourceMappingURL=5.3d787d38.chunk.js.map
